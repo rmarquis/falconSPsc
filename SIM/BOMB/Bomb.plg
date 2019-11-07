@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Bomb - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JBIERL~1\LOCALS~1\Temp\RSP7A9.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\Sim\Include" /I "..\..\Falclib\Include" /I "..\..\Campaign\Include" /I "..\..\Graphics" /I "..\..\Vu2\Include" /I "..\..\Codelib\Include" /I "..\.." /D "USE_SMARTHEAP" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /Fo"..\..\Falcon4___Win32_Debug\Sim\Bomb/" /Fd"..\..\Falcon4___Win32_Debug\Sim\Bomb/" /FD /GZ /c 
+"D:\Data\Projects\Falcon4\Falcon\Sim\Bomb\Bombmain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JBIERL~1\LOCALS~1\Temp\RSP7A9.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Bombmain.cpp
+d:\data\projects\falcon4\falcon\sim\bomb\bombmain.cpp(974) : error C2679: binary '=' : no operator defined which takes a right-hand operand of type 'const int' (or there is no acceptable conversion)
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Bombmain.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

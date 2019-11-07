@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Falcon4 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Falcon4___Win32_Release/falcon4.res" /i "Falclib\Include" /d "NDEBUG" "E:\SP3\Falclib\Include\falcon4.rc"" 
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP163.tmp" with contents
+[
+/nologo /G6 /Zp4 /MT /W3 /GX /Zi /O1 /Op /Ob2 /I "Falclib\Include" /I ".\\" /I "codelib\include" /I "Vu2\Include" /I "Sim\Include" /I "Campaign\Include" /I "UI\Include" /I "Graphics" /I "amd\inc\\" /D "_WINDOWS" /D "NDEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /Fo".\Falcon4___Win32_Release/" /Fd".\Falcon4___Win32_Release/" /FD /c 
+"E:\SP3\Ui\Src\Winmain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP163.tmp" 
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+delayimp.lib .\Falcon4___Win32_Release\ResMgr\ResMgr.lib libcmt.lib Landh\Lib\st80w.lib oleaut32.lib d3dx.lib comsupp.lib libcpmt.lib amd\lib\release\amd3d.lib ole32.lib dplay.lib dplayx.lib oldnames.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib comctl32.lib advapi32.lib shell32.lib uuid.lib winmm.lib vfw32.lib wsock32.lib dsound.lib dxguid.lib dinput.lib ddraw.lib .\Falcon4___Win32_Release\crashhandler\crashhandler.lib extlibs\dbghelp.lib /nologo /subsystem:windows /incremental:no /pdb:".\Falcon4___Win32_Release/F4OS.pdb" /map:".\Falcon4___Win32_Release/F4OS.map" /debug /machine:I386 /nodefaultlib /out:"Falcon4___Win32_Release/F4OS.exe" /OPT:REF /OPT:REF /fixed:no /mapinfo:lines 
+.\Falcon4___Win32_Release\F4Config.obj
+.\Falcon4___Win32_Release\Winmain.obj
+.\Falcon4___Win32_Release\falcon4.res
+.\Falcon4___Win32_Release\Acmi\Acmi.lib
+.\Falcon4___Win32_Release\Comms\Comms.lib
+.\Falcon4___Win32_Release\Falclib\FalcLib.lib
+.\Falcon4___Win32_Release\FalcSnd\FalcSnd.lib
+.\Falcon4___Win32_Release\Movie\Movie.lib
+.\Falcon4___Win32_Release\Tools\Tools.lib
+.\Falcon4___Win32_Release\UI95\ui95.lib
+.\Falcon4___Win32_Release\UI95_Ext\UI95_ext.lib
+.\Falcon4___Win32_Release\Vu2\Vu2.lib
+.\Falcon4___Win32_Release\Graphics\3Dlib\3DLib.lib
+.\Falcon4___Win32_Release\Sim\Bomb\Bomb.lib
+.\Falcon4___Win32_Release\Graphics\BSPLib\BSPLib.lib
+.\Falcon4___Win32_Release\Campaign\CampLib\CampLib.lib
+.\Falcon4___Win32_Release\Campaign\CampTask\CampTask.lib
+.\Falcon4___Win32_Release\Campaign\CampTool\CampTool.lib
+.\Falcon4___Win32_Release\Campaign\CampUI\CampUI.lib
+.\Falcon4___Win32_Release\Campaign\CampUpd\CampUpd.lib
+.\Falcon4___Win32_Release\Sim\Cockpit\Cockpit.lib
+.\Falcon4___Win32_Release\Graphics\DDStuff\DDStuff.lib
+.\Falcon4___Win32_Release\Sim\Digi\Digi.lib
+.\Falcon4___Win32_Release\Sim\Displays\Displays.lib
+.\Falcon4___Win32_Release\Sim\Eject\Eject.lib
+.\Falcon4___Win32_Release\Sim\Faults\Faults.lib
+.\Falcon4___Win32_Release\Sim\FCC\FCC.lib
+.\Falcon4___Win32_Release\Sim\Feature\Feature.lib
+.\Falcon4___Win32_Release\Sim\Ground\Ground.lib
+.\Falcon4___Win32_Release\Sim\Guns\Guns.lib
+.\Falcon4___Win32_Release\Sim\HDigi\HDigi.lib
+.\Falcon4___Win32_Release\Sim\Helo\Helo.lib
+.\Falcon4___Win32_Release\Sim\ICP\ICP.lib
+.\Falcon4___Win32_Release\Sim\Irst\Irst.lib
+.\Falcon4___Win32_Release\Lists\Lists.lib
+.\Falcon4___Win32_Release\Sim\Missile\Missile.lib
+.\Falcon4___Win32_Release\Navaids\Navaids.lib
+.\Falcon4___Win32_Release\Graphics\Objects\Objects.lib
+.\Falcon4___Win32_Release\Sim\OTWDrive\OTWDrive.lib
+.\Falcon4___Win32_Release\Sim\Radar\Radar.lib
+.\Falcon4___Win32_Release\Graphics\Renderer\Renderer.lib
+.\Falcon4___Win32_Release\Sim\Rwr\Rwr.lib
+.\Falcon4___Win32_Release\Sim\SimDrive\SimDrive.lib
+.\Falcon4___Win32_Release\Sim\SimInput\SimInput.lib
+.\Falcon4___Win32_Release\Sim\SimLib\SimLib.lib
+.\Falcon4___Win32_Release\Sim\SimLoop\SimLoop.lib
+.\Falcon4___Win32_Release\Graphics\Terrain\Terrain.lib
+.\Falcon4___Win32_Release\Graphics\Texture\Texture.lib
+.\Falcon4___Win32_Release\UI\Campaign\Campaign.lib
+.\Falcon4___Win32_Release\UI\Common\Common.lib
+.\Falcon4___Win32_Release\UI\Comms\Comms.lib
+.\Falcon4___Win32_Release\UI\Dogfight\UIDogfight.lib
+.\Falcon4___Win32_Release\UI\General\UIGeneral.lib
+.\Falcon4___Win32_Release\UI\Instant\UIInstant.lib
+.\Falcon4___Win32_Release\UI\Logbook\UILogbook.lib
+.\Falcon4___Win32_Release\UI\Setup\UISetup.lib
+.\Falcon4___Win32_Release\UI\TacEng\UITaceng.lib
+.\Falcon4___Win32_Release\UI\TacRef\UITacref.lib
+.\Falcon4___Win32_Release\Graphics\Utils\Utils.lib
+.\Falcon4___Win32_Release\Sim\Visual\Visual.lib
+.\Falcon4___Win32_Release\Graphics\Weather\Weather.lib
+.\Falcon4___Win32_Release\UI\UI.lib
+.\Falcon4___Win32_Release\ResMgr\ResMgr.lib
+.\Falcon4___Win32_Release\Sim\airfarme\Airframe.lib
+.\Falcon4___Win32_Release\Sim\Aircraft\Aircraft.lib
+.\Falcon4___Win32_Release\crashhandler\crashhandler.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP164.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Winmain.cpp
+Falcon 4.0 alpha-3 (US)
+1,0,13,1
+1.0131
+alpha-3 US Edition
+Linking...
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+F4OS.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

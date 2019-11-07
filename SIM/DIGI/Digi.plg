@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Digi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JBIERL~1\LOCALS~1\Temp\RSP869.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\Sim\Include" /I "..\..\Falclib\Include" /I "..\..\Campaign\Include" /I "..\..\Graphics" /I "..\..\Vu2\Include" /I "..\..\Codelib\Include" /I "..\.." /D "USE_SMARTHEAP" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /Fo"..\..\Falcon4___Win32_Debug\Sim\Digi/" /Fd"..\..\Falcon4___Win32_Debug\Sim\Digi/" /FD /GZ /c 
+"D:\Data\Projects\Falcon4\Falcon\Sim\Digi\tankbrn.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JBIERL~1\LOCALS~1\Temp\RSP869.tmp" 
+<h3>Output Window</h3>
+Compiling...
+tankbrn.cpp
+
+
+
+<h3>Results</h3>
+tankbrn.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

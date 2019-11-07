@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UIComms - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JBIERL~1.UNI\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\..\ui95" /I "..\..\..\ui95_ext" /I "..\..\..\falclib\include" /I "..\..\..\vu2\include" /I "..\..\..\Graphics" /I "..\..\..\codelib\include" /I "..\..\.." /I "..\..\..\campaign\include" /I "..\..\AMD\Inc\\" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /Fo"..\..\..\Falcon4___Win32_Debug\UI\Comms/" /Fd"..\..\..\Falcon4___Win32_Debug\UI\Comms/" /FD /GZ /c 
+"D:\Data\PROJECTS\Falcon4\Falcon\UI\Src\Comms\ui_comms.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JBIERL~1.UNI\LOCALS~1\Temp\RSP132.tmp" 
+Creating temporary file "C:\DOCUME~1\JBIERL~1.UNI\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+/nologo /out:"..\..\..\Falcon4___Win32_Debug\UI\Comms\Comms.lib" 
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\Chatwin.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\cpcomms.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\cphoneb.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\dfcomms.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\info.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\phonebk.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\queue.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\remotelb.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\serverbrowser.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\stats.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\ui_comms.obj
+\Data\PROJECTS\Falcon4\Falcon\Falcon4___Win32_Debug\UI\Comms\uicomms.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\JBIERL~1.UNI\LOCALS~1\Temp\RSP133.tmp"
+<h3>Output Window</h3>
+Compiling...
+ui_comms.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+Comms.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

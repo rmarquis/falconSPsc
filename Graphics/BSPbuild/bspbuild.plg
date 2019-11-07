@@ -1,0 +1,154 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bsputil - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP166.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\Codelib\Include" /I "..\..\\" /I "..\Include" /I "..\..\vu2\include" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /Fo"..\..\Falcon4___Win32_Debug\Graphics\BSPutil/" /Fd"..\..\Falcon4___Win32_Debug\Graphics\BSPutil/" /FD /GZ /c 
+"E:\SP3\Graphics\BSPutil\AlphaPatch.cpp"
+"E:\SP3\Graphics\BSPutil\BSPnodeWriter.cpp"
+"E:\SP3\Graphics\BSPutil\ColorBuildList.cpp"
+"E:\SP3\Graphics\BSPutil\DynamicPatch.cpp"
+"E:\SP3\Graphics\BSPutil\FLTtoGeometry.cpp"
+"E:\SP3\Graphics\BSPutil\FLTtoParent.cpp"
+"E:\SP3\Graphics\BSPutil\LODBuildList.cpp"
+"E:\SP3\Graphics\BSPutil\PalBuildList.cpp"
+"E:\SP3\Graphics\BSPutil\ParentBuildList.cpp"
+"E:\SP3\Graphics\BSPutil\PolyWriter.cpp"
+"E:\SP3\Graphics\BSPutil\PosBuildList.cpp"
+"E:\SP3\Graphics\BSPutil\ScriptNames.cpp"
+"E:\SP3\Graphics\BSPutil\TexBuildList.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP166.tmp" 
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP167.tmp" with contents
+[
+/nologo /out:"..\..\Falcon4___Win32_Debug\Graphics\BSPutil\bsputil.lib" 
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\AlphaPatch.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\BSPnodeWriter.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\ColorBuildList.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\DynamicPatch.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\FLTtoGeometry.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\FLTtoParent.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\LODBuildList.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\PalBuildList.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\ParentBuildList.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\PolyWriter.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\PosBuildList.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\ScriptNames.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\TexBuildList.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP167.tmp"
+<h3>Output Window</h3>
+Compiling...
+AlphaPatch.cpp
+BSPnodeWriter.cpp
+ColorBuildList.cpp
+DynamicPatch.cpp
+FLTtoGeometry.cpp
+FLTtoParent.cpp
+LODBuildList.cpp
+PalBuildList.cpp
+ParentBuildList.cpp
+PolyWriter.cpp
+PosBuildList.cpp
+ScriptNames.cpp
+TexBuildList.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: bspbuild - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP168.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\codelib\include" /I "..\include" /I "..\..\\" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\SP3\Graphics\BSPbuild\BSPbuild.cpp"
+"E:\SP3\Ui\Src\F4Config.cpp"
+"E:\SP3\utils\lzss.cpp"
+"E:\SP3\Graphics\BSPbuild\mgif.cpp"
+"E:\SP3\Graphics\BSPbuild\resstub.c"
+"E:\SP3\Graphics\BSPbuild\resstubcpp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP168.tmp" 
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+/nologo /G6 /MTd /W3 /Gm /GX /ZI /Od /I "..\..\codelib\include" /I "..\include" /I "..\..\\" /I "..\..\falclib\include" /D "_DEBUG" /D "_LIB" /D TARGET=m_i486 /D "WIN32" /D "_MBCS" /D "STRICT" /D "WIN32_LEAN_AND_MEAN" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\SP3\Tools\Mono\Debuggr.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP169.tmp" 
+Creating temporary file "C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP16A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\..\amd\lib\Debug\amd3d.lib d3dx.lib ddraw.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/bspbuild.pdb" /debug /machine:I386 /out:"Debug/bspbuild.exe" /pdbtype:sept 
+.\Debug\BSPbuild.obj
+.\Debug\Debuggr.obj
+.\Debug\F4Config.obj
+.\Debug\lzss.obj
+.\Debug\mgif.obj
+.\Debug\resstub.obj
+.\Debug\resstubcpp.obj
+\SP3\Falcon4___Win32_Debug\Graphics\BSPLib\BSPLib.lib
+\SP3\Falcon4___Win32_Debug\Graphics\3Dlib\3DLib.lib
+\SP3\Falcon4___Win32_Debug\Graphics\Texture\Texture.lib
+\SP3\Falcon4___Win32_Debug\Graphics\Utils\Utils.lib
+\SP3\Falcon4___Win32_Debug\Graphics\Weather\Weather.lib
+\SP3\Falcon4___Win32_Debug\Graphics\DDStuff\DDStuff.lib
+\SP3\Falcon4___Win32_Debug\Graphics\BSPutil\bsputil.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\DEMONL~1\LOCALS~1\Temp\RSP16A.tmp"
+<h3>Output Window</h3>
+Compiling...
+BSPbuild.cpp
+F4Config.cpp
+lzss.cpp
+mgif.cpp
+Generating Code...
+Compiling...
+resstub.c
+Generating Code...
+Compiling...
+resstubcpp.cpp
+Generating Code...
+Compiling...
+Debuggr.cpp
+Linking...
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::FileMemMap(void)" (??0FileMemMap@@QAE@XZ)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::FileMemMap(void)" (??0FileMemMap@@QAE@XZ)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::FileMemMap(void)" (??0FileMemMap@@QAE@XZ)
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::~FileMemMap(void)" (??1FileMemMap@@QAE@XZ)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::~FileMemMap(void)" (??1FileMemMap@@QAE@XZ)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: __thiscall FileMemMap::~FileMemMap(void)" (??1FileMemMap@@QAE@XZ)
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::Open(char const *,int,int)" (?Open@FileMemMap@@QAEHPBDHH@Z)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::Open(char const *,int,int)" (?Open@FileMemMap@@QAEHPBDHH@Z)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::Open(char const *,int,int)" (?Open@FileMemMap@@QAEHPBDHH@Z)
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: void __thiscall FileMemMap::Close(void)" (?Close@FileMemMap@@QAEXXZ)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: void __thiscall FileMemMap::Close(void)" (?Close@FileMemMap@@QAEXXZ)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: void __thiscall FileMemMap::Close(void)" (?Close@FileMemMap@@QAEXXZ)
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::ReadDataAt(unsigned long,void *,unsigned long)" (?ReadDataAt@FileMemMap@@QAEHKPAXK@Z)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::ReadDataAt(unsigned long,void *,unsigned long)" (?ReadDataAt@FileMemMap@@QAEHKPAXK@Z)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: int __thiscall FileMemMap::ReadDataAt(unsigned long,void *,unsigned long)" (?ReadDataAt@FileMemMap@@QAEHKPAXK@Z)
+BSPLib.lib(ObjectLOD.obj) : error LNK2001: unresolved external symbol "public: unsigned char * __thiscall FileMemMap::GetData(int,int)" (?GetData@FileMemMap@@QAEPAEHH@Z)
+BSPLib.lib(TexBank.obj) : error LNK2001: unresolved external symbol "public: unsigned char * __thiscall FileMemMap::GetData(int,int)" (?GetData@FileMemMap@@QAEPAEHH@Z)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "public: unsigned char * __thiscall FileMemMap::GetData(int,int)" (?GetData@FileMemMap@@QAEPAEHH@Z)
+Texture.lib(fartex.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+Texture.lib(TerrTex.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+BSPLib.lib(ObjectParent.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+BSPLib.lib(BSPnodes.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+3DLib.lib(context.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+Texture.lib(Tex.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadReadPtr(void const *,unsigned int)" (?F4IsBadReadPtr@@YA_NPBXI@Z)
+BSPLib.lib(StateStack.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadCodePtr(void *)" (?F4IsBadCodePtr@@YA_NPAX@Z)
+3DLib.lib(context.obj) : error LNK2001: unresolved external symbol "bool __cdecl F4IsBadWritePtr(void *,unsigned int)" (?F4IsBadWritePtr@@YA_NPAXI@Z)
+Weather.lib(Tod.obj) : error LNK2001: unresolved external symbol "struct SkyColorDataType * skycolor" (?skycolor@@3PAUSkyColorDataType@@A)
+Debug/bspbuild.exe : fatal error LNK1120: 10 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+bspbuild.exe - 28 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
